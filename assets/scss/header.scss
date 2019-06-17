@@ -1,0 +1,146 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #eaeaea;
+  margin: auto;
+}
+
+
+.main-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1120px;
+}
+
+
+/*__HEADER_________________________________*/
+
+.header_logo_main{
+  margin-top: 159px;
+  text-align: center;
+}
+
+
+.header-nav__wrapper {
+  /* text-align: center; */
+  margin-top: 123px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 123px;
+  width: 1120px;
+  background: #ffffff;
+  background: url('../img/header_background.png');
+}
+
+
+.header_logo_nav {
+  padding-top: 50px;
+  padding-left: 95px;
+}
+
+.menu_nav_header{
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  position: relative;
+}
+
+.menu_nav_header li:hover {
+opacity: 0.5;
+}
+
+
+.menu {
+  margin-top: -25px;
+  margin-left: -40px;
+}
+
+
+.menu li {
+  display: inline-block;
+  padding: 0 10px;
+  position: relative;
+
+}
+
+
+.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1e1e1e;
+}
+
+
+.submenu_home, .submenu_Recipes, .submenu_Photo_Galleries, .submenu_Videos, .submenu_Categories  {
+  display: none;
+  /* background: rgba(255, 255, 255, 0.40); */
+  position: absolute;
+  left: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.submenu_home li, .submenu_Recipes li, .submenu_Photo_Galleries li, .submenu_Videos li, .submenu_Categories li {
+  margin-left: -5px;
+  height:auto;
+  padding: 15px 15px;
+  width:100%;
+  box-sizing:border-box;
+}
+
+.menu_nav_header li:hover ul{
+  display: block;
+}
+
+
+.submenu_home a:hover, .submenu_Recipes a:hover, .submenu_Photo_Galleries a:hover, .submenu_Videos a:hover, .submenu_Categories a:hover {
+  text-decoration: underline;
+}
+
+
+.submenu_home li:hover {
+  opacity: 1;
+  cursor:pointer;
+}
+
+
+
+
+.header_input_nav {
+  display: flex;
+  margin-top: -32px;
+  margin-right: 94px;
+  float:right;
+}
+
+
+.input_form {
+  line-height: 1.6em;
+   background: url('../img/Search Icon.png') no-repeat center left 25px;
+   padding-left:25px;
+   padding-top: 5px;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+  border: none;
+  border: 1px solid #c2c2c2;
+  }
+
+
+
+
+.main-content {
+  flex: 1 0 auto;
+}

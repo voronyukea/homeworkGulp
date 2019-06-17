@@ -1,0 +1,63 @@
+.first_section {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+  margin-top: 86px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 440px;
+  width: 1120px;
+  background: #ffffff;
+  background: url('../img/background_section.png');
+}
+
+.first_section_logo {
+  display: flex;
+  /* padding-top: 10px; */
+  margin-left: 104px;
+}
+
+
+
+.first_section_bananas_headline {
+  display: flex;
+  margin-left: 104px;
+  padding-top: 22px;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #911026;
+
+}
+
+.first_section_text {
+  display: flex;
+  display: block;
+  text-align: left;
+  padding-top: 22px;
+  padding-left: 105px;
+  width: 305px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+
+}
+
+.first_section_button {
+  display: flex;
+  padding-top: 20px;
+  margin-left: 104px;
+}
+
+
+.first_section_button button {
+  font-size: 12px;
+  width: 109px;
+  height: 29px;
+  background: #ffffff;
+  border: none;
+  border: 1px solid #c2c2c2;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
